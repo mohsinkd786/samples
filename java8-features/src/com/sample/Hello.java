@@ -41,10 +41,6 @@ public class Hello implements I {
 			out.println("Values " + emp.getKey().getEmpName());
 		} //
 
-		
-		
-		
-		
 		// Functional Interface example
 		Worker work = new Worker() {
 
@@ -55,29 +51,8 @@ public class Hello implements I {
 		};
 		out.println("Functional Interface with Anonymous Class " + work.evaluate(10, 12));
 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		out.println("FI Default Method with Anonymous Class " + work.sum(10, 12));
+
 		// Lambda Expression
 
 		Worker wrk = (a, b) -> {
