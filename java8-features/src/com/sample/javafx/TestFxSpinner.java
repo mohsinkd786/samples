@@ -74,7 +74,7 @@ public class TestFxSpinner extends Application {
 
 		Scene scene = new Scene(root, 400, 200);
 
-		stage.setTitle("JavaFX Spinner (o7planning.org)");
+		stage.setTitle("JavaFX Spinner");
 		stage.setScene(scene);
 		stage.show();
 	}

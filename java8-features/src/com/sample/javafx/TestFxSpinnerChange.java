@@ -1,4 +1,4 @@
-package com.sample.javafx;
+﻿package com.sample.javafx;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -87,7 +87,7 @@ public class TestFxSpinnerChange extends Application {
 
 		Scene scene = new Scene(root, 400, 200);
 
-		stage.setTitle("JavaFX Spinner (o7planning.org)");
+		stage.setTitle("JavaFX Spinner");
 		stage.setScene(scene);
 		stage.show();
 	}
