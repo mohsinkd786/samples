@@ -25,7 +25,6 @@ public class Parser {
 		DocumentBuilderFactory df;
 		DocumentBuilder builder;
 		Document document;
-
 	}
 
 	static void AddNode(DocumentBuilderFactory df, DocumentBuilder builder, Document document) {
