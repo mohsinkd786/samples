@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.wikipedia.org/WikiSchema"
+	xmlns:tns="http://www.wikipedia.org/WikiSchema" elementFormDefault="qualified">
+
+	<element name="infoDetail" type="tns:infoDetail"></element>
+
+	<complexType name="infoDetail">
+		<sequence>
+			<element name="author" type="string" maxOccurs="unbounded"
+				minOccurs="0"></element>
+			<element name="originalTitle" type="string" maxOccurs="1"
+				minOccurs="1"></element>
+			<element name="language" type="tns:elementType" maxOccurs="unbounded"
+				minOccurs="1">
+			</element>
+			<element name="pages" type="int" maxOccurs="unbounded"
+				minOccurs="1"></element>
+			<element name="displayName" type="string" maxOccurs="1"
+				minOccurs="0"></element>
+		</sequence>
+	</complexType>
+
+	<complexType name="elementType">
+		<sequence>
+			<element name="name" type="string"></element>
+		</sequence>
+		<attribute name="scheme" type="string"></attribute>
+	</complexType>
+</schema>
